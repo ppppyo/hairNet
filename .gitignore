@@ -7,3 +7,4 @@ last_model.pth
 wandb/
 logs/
 .env
+data/hairNet/
