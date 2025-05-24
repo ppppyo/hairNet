@@ -3,7 +3,7 @@ import sys
 from PIL import Image
 
 if len(sys.argv) < 2:
-    print("사용법: python3 script.py <이미지_폴더_경로>")
+    print("사용법: python3 remove.py <이미지_폴더_경로>")
     sys.exit(1)
 
 input_dir = sys.argv[1]

@@ -4,7 +4,7 @@ from PIL import Image, UnidentifiedImageError
 from facenet_pytorch import MTCNN
 
 if len(sys.argv) < 2:
-    print("사용법: python3 script.py <입력_디렉토리>")
+    print("사용법: python3 resize.py <입력_디렉토리>")
     sys.exit(1)
 
 input_dir = sys.argv[1]

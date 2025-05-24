@@ -108,7 +108,7 @@ def main(root_dir):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("사용법: python3 script.py <데이터_루트_디렉토리>")
+        print("사용법: python3 augmentation.py <데이터_루트_디렉토리>")
         sys.exit(1)
     root_directory = sys.argv[1]
     main(root_directory)

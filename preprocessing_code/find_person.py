@@ -6,7 +6,7 @@ from PIL import UnidentifiedImageError
 
 # 명령줄 인자 확인
 if len(sys.argv) < 2:
-    print("사용법: python3 filter_nonhuman_images_recursive.py <상위_디렉토리>")
+    print("사용법: python3 find_person.py <상위_디렉토리>")
     sys.exit(1)
 
 root_dir = sys.argv[1]
